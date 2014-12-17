@@ -1,0 +1,89 @@
+html {
+  font-size: 14px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#container{
+  margin: 0 auto;
+  max-width: 900px;
+  min-width: 300px;
+  padding: 20px;}
+
+h1,h2,address {
+  font-family: 'Indie Flower', cursive;
+}
+
+h3,p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+  font-size: 30px;
+}
+
+header {
+  padding-bottom: 20px;
+  position: relative;
+}
+
+img {
+  height: 130px;
+  width: 100px;
+  border: 1px solid black;
+  padding: 2px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+article {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+article h3,
+article p {
+  margin: 0;
+  padding-left: 0;
+  padding-bottom: 2px;
+}
+
+
+  header,
+  nav,
+  #OBJECTIVE,
+  #EDUCATION,
+  #EXPERIENCE,
+  #SKILLS,
+  #ACTIVITIES{
+  border-bottom: 1px solid black;
+  }
+
+nav {
+  text-align: center;
+}
+
+li > a:hover {
+  border: 1px solid black;
+  background: red;
+  padding: 2px;
+}
+
+li > a:visited {
+  color: #ccc;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+list-style-type: none;
+display: inline-block;
+width: 100px;
+font-family:'Indie Flower', cursive;
+font-size: 18px;
+}

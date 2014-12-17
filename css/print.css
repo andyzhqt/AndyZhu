@@ -1,0 +1,52 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Times New Roman", "Times", serif;
+}
+
+
+h1,h2,h3 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+nav {
+  display: none;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 900px;
+  min-width: 300px;
+  padding: 20px;}
+
+header {
+  padding-bottom: 20px;
+  position: relative;
+}
+
+header, address {
+  text-align: center;
+}
+
+header img {
+  display: none;
+}
+
+article {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+article h3,
+article p {
+  margin: 0;
+  padding-left: 0;
+  padding-bottom: 2px;
+}
+
+
+footer {
+  display: none;
+}
